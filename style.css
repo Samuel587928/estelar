@@ -1,0 +1,132 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #0b0c36, #4b0082);
+    color: #fff;
+    line-height: 1.6;
+    padding-bottom: 3rem;
+}
+
+header {
+    background-color: rgba(0, 0, 50, 0.8);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin: 0;
+    color: #a29bfe;
+    text-shadow: 2px 2px #000;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #a29bfe;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d0c3ff;
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    background-color: rgba(20, 0, 40, 0.6);
+    margin: 2rem auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    max-width: 800px;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input, textarea {
+    padding: 0.9rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #1c1c3c;
+    color: white;
+    resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 0.85rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6a0dad;
+    transform: scale(1.05);
+}
+
+.contato-extra {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #a29bfe;
+}
+
+.contato-extra h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #ffd6ff;
+}
+
+.contato-extra ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.contato-extra a {
+    color: #dcd6f7;
+    text-decoration: underline;
+}
+
+.contato-extra a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}

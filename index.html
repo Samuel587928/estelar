@@ -1,0 +1,84 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Do Pó ao Colapso - Início</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            background-color: rgba(30, 10, 60, 0.8);
+            padding: 2.5rem 3rem;
+            border-radius: 25px;
+            box-shadow: 0 0 25px rgba(150, 130, 250, 0.6);
+            color: #f0e9ff;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #c9baff;
+            text-shadow: 2px 2px 5px #4b0082;
+        }
+
+        p {
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(200, 180, 255, 0.7);
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Do Pó ao Colapso</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="estrelas.html">Estrelas</a>
+            <a href="universo.html">Universo</a>
+            <a href="criacao.html">Criação</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bem-vindo ao projeto Do Pó ao Colapso</h2>
+            <p>
+                Este é o início de uma jornada pelo cosmos, desde as partículas elementares até os buracos negros. Navegue para explorar cada etapa dessa magnífica história cósmica.
+            </p>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/hXzAqxwbA_U" 
+                    title="Vídeo sobre o Espaço" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
